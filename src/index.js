@@ -14,7 +14,7 @@ function getBooksAndMovies() {
 
 const getBooksAndMoviesPromise = getBooksAndMovies();
 getBooksAndMoviesPromise.then((results) => {
-    console.log("getBooksAndMoviesPromise", results);
+    console.log("getBooksAndMovies", results);
 });
 
 function getBooksOrMovies() {
@@ -27,6 +27,14 @@ const getBooksOrMoviesPromise = getBooksOrMovies();
 getBooksOrMoviesPromise.then((results) => {
     console.log('getBooksOrMoviesPromise', results)
 });
+
+
+
+
+
+
+
+
 // export function fetchMovies() {
 //     const resolveFunction = () => movies; //  returns the movies array
 //     return fetchWithTimeout(1000).then(resolveFunction);
