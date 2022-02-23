@@ -1,6 +1,4 @@
-const fetchMovies = () => {
-
-}
+export function fetchMovies() {};
 
 
-module.exports = fetchMovies;
+
